@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Archives: #1960-047</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #2e2b26;
+        }
+        .document {
+            background-color: #c9ad86;
+            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            max-width: 900px;
+            padding: 60px;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            position: relative;
+            border: 1px solid #a38a65;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #444;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+        .content p {
+            line-height: 1.5;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            text-indent: 30px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 50px;
+        }
+        .polaroid {
+            background: #eee;
+            padding: 10px 10px 25px 10px;
+            box-shadow: 2px 5px 15px rgba(0,0,0,0.3);
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        .polaroid img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            filter: grayscale(100%) sepia(30%) contrast(1.2);
+            background: #222; /* Placeholder color */
+        }
+        .caption {
+            font-size: 0.8rem;
+            margin-top: 10px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .stamp-top {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            border: 3px solid #000;
+            padding: 5px 10px;
+            transform: rotate(10deg);
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="document">
+        <div class="stamp-top">CONFIDENTIAL<br>POLICE ARCHIVES</div>
+        
+        <div class="header">
+            <h3>LOCAL MAFIA STRIKES FEAR IN THE STREETS: THE RISE OF RAPHAEL</h3>
+        </div>
+
+        <div class="content">
+            <p>I was born into a world that didn’t give second chances. My father disappeared when I was a kid, and my mother worked tirelessly to keep us alive...</p>
+            <p>By 17, I joined the O’Driscolls, a ruthless local Mafia. Their boss, Tommy, was calm and calculating... I started with small jobs, earning Respect for being always around but never noticed.</p>
+            <p>One night, a deal went wrong. Chaos erupted, shots fired... I stayed calm, grabbed Tommy, and got him out before anyone could react. That night, I proved myself.</p>
+            <p>Years passed, and I rose through the O’Driscolls. I became colder, more focused, understanding that loyalty and patience were everything.</p>
+            <p>In the O’Driscolls, you either rise... or disappear. Tommy decides which one. Me? I’m still standing. Still watching. Still waiting.</p>
+        </div>
+
+        <div class="gallery">
+            <div class="polaroid">
+                <img src="photo1.jpg" alt="1958 Bush St Bank">
+                <div class="caption">1958 Bush St Bank</div>
+            </div>
+            <div class="polaroid">
+                <img src="photo2.jpg" alt="1959 Belamare St">
+                <div class="caption">1959 Belamare St</div>
+            </div>
+            <div class="polaroid">
+                <img src="photo3.jpg" alt="1960 Riverdale Avenue">
+                <div class="caption">1960 Riverdale Avenue</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
